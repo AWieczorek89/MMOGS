@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6265DD93-64C7-42D8-87C4-11CA40D2B632}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MMOGS</RootNamespace>
+    <AssemblyName>MMOGS</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.16\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataHandlers\ChatHandler.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\CharChoosingSuccessCmdBuilder.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\CharLobbyInfoCmdBuilder.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\CharPositionBasicDetailsCmdBuilder.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\CharPositionUpdateCmdBuilder.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\ChatMessageCmdBuilder.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\CommandCreator.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\InfoCmdBuilder.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\LocalCharacterDetailsCmdBuilder.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\LoginSuccessCmdBuilder.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\PingResponseCmdBuilder.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\ServerTimeCmdBuilder.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\TerrainDetailsCmdBuilder.cs" />
+    <Compile Include="DataHandlers\CommandBuilding\WorldDetailsCmdBuilder.cs" />
+    <Compile Include="DataHandlers\CommandHandling\CmdChatStrategy.cs" />
+    <Compile Include="DataHandlers\CommandHandling\CmdChooseCharacterStrategy.cs" />
+    <Compile Include="DataHandlers\CommandHandling\CmdGetAccountCharsStrategy.cs" />
+    <Compile Include="DataHandlers\CommandHandling\CmdGetLocationCharsStrategy.cs" />
+    <Compile Include="DataHandlers\CommandHandling\CmdGetWorldDetailsStrategy.cs" />
+    <Compile Include="DataHandlers\CommandHandling\CmdLoginStrategy.cs" />
+    <Compile Include="DataHandlers\CommandHandling\CmdLogoutStrategy.cs" />
+    <Compile Include="DataHandlers\CommandHandling\CmdPingStrategy.cs" />
+    <Compile Include="DataHandlers\CommandHandling\CommandHandler.cs" />
+    <Compile Include="DataHandlers\CommandHandling\MoveCharRequestStrategy.cs" />
+    <Compile Include="DataHandlers\CommandHandling\SwitchPlaceRequestStrategy.cs" />
+    <Compile Include="DataHandlers\FileDataManager.cs" />
+    <Compile Include="DataHandlers\GameManager.cs" />
+    <Compile Include="DataHandlers\GameStateHandler.cs" />
+    <Compile Include="DataHandlers\MySqlDataCreationTool.cs" />
+    <Compile Include="DataHandlers\MySqlDbManager.cs" />
+    <Compile Include="DataHandlers\PlayerHandler.cs" />
+    <Compile Include="DataHandlers\RegularOperationHandler.cs" />
+    <Compile Include="DataHandlers\TcpConnectionHandler.cs" />
+    <Compile Include="Encryption\Crypto.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="GlobalData.cs" />
+    <Compile Include="Interfaces\ICharacterActionManager.cs" />
+    <Compile Include="Interfaces\ICharacterInfo.cs" />
+    <Compile Include="Interfaces\ICommandBuilder.cs" />
+    <Compile Include="Interfaces\ICommandHandlingStrategy.cs" />
+    <Compile Include="Interfaces\IGeoDataInfo.cs" />
+    <Compile Include="Interfaces\ILogger.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement\GeoDataValidator.cs" />
+    <Compile Include="Measurement\Measure.cs" />
+    <Compile Include="Measurement\Units\Point2.cs" />
+    <Compile Include="Measurement\Units\Point3.cs" />
+    <Compile Include="Measurement\Units\PointConverter.cs" />
+    <Compile Include="Models\BoxedData.cs" />
+    <Compile Include="Models\ClientExchangeData\CharacterPositionBasicDetails.cs" />
+    <Compile Include="Models\ClientExchangeData\CharacterPositionUpdateDetails.cs" />
+    <Compile Include="Models\ClientExchangeData\ChatMessageDetails.cs" />
+    <Compile Include="Models\ClientExchangeData\LobbyCharDetails.cs" />
+    <Compile Include="Models\ClientExchangeData\LocalCharacterDetails.cs" />
+    <Compile Include="Models\ClientExchangeData\TerrainDetails.cs" />
+    <Compile Include="Models\ClientExchangeData\WorldPlaceDataDetails.cs" />
+    <Compile Include="Models\Commands\CommandDetails.cs" />
+    <Compile Include="Models\Database\DbAccountsData.cs" />
+    <Compile Include="Models\Database\DbCharactersData.cs" />
+    <Compile Include="Models\Database\DbTerrainObjectDefinitions.cs" />
+    <Compile Include="Models\Database\DbTerrainObjectsData.cs" />
+    <Compile Include="Models\Database\DbWorldMapData.cs" />
+    <Compile Include="Models\Database\DbWorldMapSettingsData.cs" />
+    <Compile Include="Models\GameState\AccountData.cs" />
+    <Compile Include="Models\GameState\CharacterData.cs" />
+    <Compile Include="Models\GameState\CharacterDataContainer.cs" />
+    <Compile Include="Models\GameState\CharacterMovementDetails.cs" />
+    <Compile Include="Models\GameState\GameWorldData.cs" />
+    <Compile Include="Models\GameState\GeoDataValidationDetails.cs" />
+    <Compile Include="Models\GameState\PlaceInstance.cs" />
+    <Compile Include="Models\GameState\PlaceInstanceTerrainDetails.cs" />
+    <Compile Include="Models\GameState\PlayerDetails.cs" />
+    <Compile Include="Models\GameState\WorldPlaceData.cs" />
+    <Compile Include="Models\GameState\GeoDataElement.cs" />
+    <Compile Include="Models\MySqlConnectionSettings.cs" />
+    <Compile Include="Models\TcpConnectionSettings.cs" />
+    <Compile Include="Models\TerrainConstraintsSettings.cs" />
+    <Compile Include="Models\UiReferenceContainer.cs" />
+    <Compile Include="Performance\PerformanceAnalyzer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQL\SqlCreationQueriesData.cs" />
+    <Compile Include="UI\UiHandler.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\TCPConnector\TcpConnector\TcpConnector\TcpConnector.csproj">
+      <Project>{beb0f388-884d-4e7b-b28a-533b6f174f82}</Project>
+      <Name>TcpConnector</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
