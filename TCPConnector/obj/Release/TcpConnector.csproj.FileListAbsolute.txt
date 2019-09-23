@@ -1,0 +1,5 @@
+C:\Dokumenty\Projekty\csharp\TCPConnector\TcpConnector\TcpConnector\bin\Release\TcpConnector.dll
+C:\Dokumenty\Projekty\csharp\TCPConnector\TcpConnector\TcpConnector\bin\Release\TcpConnector.pdb
+C:\Dokumenty\Projekty\csharp\TCPConnector\TcpConnector\TcpConnector\obj\Release\TcpConnector.csproj.CoreCompileInputs.cache
+C:\Dokumenty\Projekty\csharp\TCPConnector\TcpConnector\TcpConnector\obj\Release\TcpConnector.dll
+C:\Dokumenty\Projekty\csharp\TCPConnector\TcpConnector\TcpConnector\obj\Release\TcpConnector.pdb
