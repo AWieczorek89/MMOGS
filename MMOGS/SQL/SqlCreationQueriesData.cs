@@ -181,217 +181,217 @@ namespace MMOGS.SQL
                 )
                 VALUES
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     0, 0, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     0, 1, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     0, 2, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     0, 3, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     0, 4, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     0, 5, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     1, 0, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     1, 1, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     1, 2, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     1, 3, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     1, 4, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     1, 5, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     2, 0, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     2, 1, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     2, 2, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     2, 3, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     2, 4, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     2, 5, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     3, 0, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     3, 1, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     3, 2, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     3, 3, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     3, 4, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     3, 5, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     4, 0, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     4, 1, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     4, 2, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     4, 3, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     4, 4, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     4, 5, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     5, 0, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     5, 1, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     5, 2, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     5, 3, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     5, 4, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     5, 5, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 0
@@ -400,19 +400,19 @@ namespace MMOGS.SQL
 
 
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     6, 2, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 1
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     6, 3, 0,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_TERRAIN' LIMIT 1),
                     -1, 0, 1
                 ),
                 (
-                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Capital City' LIMIT 1),
+                    (SELECT `wm_id` FROM `world_map` WHERE `wm_place_name` = 'Some Place 0' LIMIT 1),
                     3, 2, 1,
                     (SELECT `tod_id` FROM `terrain_object_definitions` WHERE `tod_code` = 'BASIC_WALL' LIMIT 1),
                     -1, 0, 0
